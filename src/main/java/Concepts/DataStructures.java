@@ -4,13 +4,6 @@ import java.util.ArrayList;
 
 public class DataStructures {
     public static void main(String[] args) {
-        // Arrays
-        /*
-           An array stores data in an indexed position, starting at index 0.
-           In the example below 2 is the first number, meaning its position
-           in the array is at index 0
-         */
-
         // Dynamic array -> Grows automatically when new elements are added
         ArrayList<String> myArray = new ArrayList<>();
 

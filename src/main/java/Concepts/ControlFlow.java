@@ -6,7 +6,6 @@ public class ControlFlow {
         // variable
         int number = 10;
 
-
         // if variable named number's value is greater than zero -> execute code block
         if (number > 0){
             // this will always trigger, because we store the value 10 in the variable number!
