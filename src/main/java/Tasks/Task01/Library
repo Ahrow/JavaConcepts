@@ -1,0 +1,37 @@
+Objective: Create a Java program that manages a collection of Book objects.
+Your program should be able to add new books, display all books, and search for books by title.
+
+Requirements:
+
+Book Class:
+----------
+Attributes: Create the following attributes:
+title (String)
+author (String)
+price (double)
+isbn (int)
+Constructor: Define a constructor that initializes all attributes.
+Getters/Setters: Implement getter and setter methods for all attributes.
+
+Library Class:
+--------------
+Attributes: Create the following attributes:
+books (an array of Book objects)
+count (int) to keep track of the actual number of books in the array.
+Methods:
+addBook(Book book): Adds a new book to the books array and updates the count.
+displayBooks(): Displays all books in the library. Use a for loop to iterate through the books array.
+searchByTitle(String title): Searches for books by title. Print the details of all books that match the search query.
+
+Main Class:
+----------
+In the Main class, write a main method to:
+Instantiate the Library object.
+Create several Book objects and add them to the Library.
+Display all books in the library.
+Search for a book by title.
+
+Additional Instructions:
+-----------------------
+Ensure that your program handles cases where the books array might get filled. Consider expanding the array or simply limiting the input for this task.
+Comment your code adequately to explain the logic wherever necessary.

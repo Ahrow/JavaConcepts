@@ -1,0 +1,37 @@
+Task Description:
+Objective: Create a Java program to manage a simple inventory system for a small electronics store. The program should allow adding new items, updating stock quantities, and listing all items in the inventory.
+
+Requirements:
+
+Product Class:
+--------------
+Attributes: Include the following:
+productName (String)
+price (double)
+quantityInStock (int)
+productId (int) – a unique identifier for each product
+Constructor: Define a constructor to initialize all attributes.
+Getters/Setters: Implement getter and setter methods for all attributes.
+
+Inventory Class:
+----------------
+Attributes: Include the following:
+products (an array of Product objects)
+numberOfProducts (int) to track the actual number of products in the inventory.
+Methods:
+addProduct(Product product): Adds a new product to the inventory and updates numberOfProducts.
+updateStock(int productId, int newQuantity): Updates the stock quantity for a specific product.
+listInventory(): Lists all the products in the inventory, including their details. Use a for loop to iterate through the products array.
+
+Main Class:
+-----------
+Write a main method in the Main class to:
+Instantiate the Inventory object.
+Create several Product objects and add them to the Inventory.
+List all products in the inventory.
+Update the stock quantity of a product and show the updated inventory.
+Additional Instructions:
+
+Make sure your addProduct method checks for the maximum capacity of the products array and handles it appropriately, either by limiting the number of products that can be added or by implementing a mechanism to expand the array size dynamically.
+Implement input validation where necessary, for example, ensuring that stock quantities are positive.
+Comment your code to explain the implementation and logic where necessary.
