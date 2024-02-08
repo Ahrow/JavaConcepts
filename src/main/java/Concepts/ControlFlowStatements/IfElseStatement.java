@@ -1,7 +1,6 @@
-package Concepts;
+package Concepts.ControlFlowStatements;
 
-// Control flow statements allow Java programs to execute code blocks based on certain conditions
-public class ControlFlow {
+public class IfElseStatement {
     public static void main(String[] args) {
         // variable
         int number = 10;
@@ -20,23 +19,5 @@ public class ControlFlow {
             System.out.println("The number is zero");
         }
 
-        // for loop
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("for loop: Iteration " + i);
-        }
-
-        // while loop
-        int count = 1;
-        while (count <=5) {
-            System.out.println("while loop: Count is: " + count);
-            count++;
-        }
-
-        // do-while loop
-        do {
-            System.out.println("do-while loop: " + count);
-            count++;
-        } while (count <= 5);
     }
-
 }

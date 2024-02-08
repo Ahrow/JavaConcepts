@@ -1,8 +1,8 @@
-package Concepts;
+package Concepts.DataStructures;
 
 import java.util.ArrayList;
 
-public class DataStructures {
+public class ArrayExample {
     public static void main(String[] args) {
         // Dynamic array -> Grows automatically when new elements are added
         ArrayList<String> myArray = new ArrayList<>();
@@ -14,9 +14,7 @@ public class DataStructures {
         myArray.add("Programming");
 
         // Print first element of the ArrayList
-        if (!myArray.isEmpty()) { // Check if the ArrayList is not empty
-            System.out.println("First element of ArrayList: " + myArray.get(0));
-        }
+        System.out.println("First element of ArrayList: " + myArray.get(0));
 
         // Loop through the ArrayList using standard for loop
         System.out.println("\nUsing standard for loop:");
@@ -44,5 +42,4 @@ public class DataStructures {
             System.out.println(number);
         }
     }
-
 }

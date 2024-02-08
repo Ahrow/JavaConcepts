@@ -22,8 +22,7 @@ public class Library {
     // Method to display all books
     public void displayBooks() {
         for (int i = 0; i < count; i++) {
-            Book book = books[i];
-            System.out.println("Title: " + book.getTitle() + ", Author: " + book.getAuthor() + ", Price: $" + book.getPrice() + ", ISBN: " + book.getIsbn());
+            Book book = books[i];System.out.println("Title: " + book.getTitle() + ", Author: " + book.getAuthor() + ", Price: $" + book.getPrice() + ", ISBN: " + book.getIsbn());
         }
     }
 
@@ -35,6 +34,8 @@ public class Library {
      * .contains() checks if the book's title, now in lower case, includes the search term (also in lower case).
      * This method allows for partial matches, meaning it will find any book whose title contains the given substring.
      */
+
+
     public void searchByTitle(String title) {
         boolean found = false;
         for (int i = 0; i < count; i++) {
