@@ -6,7 +6,7 @@ package AlgdatLabPractice.Problem2;
  * • Circular singly linked list
  * • Circular doubly linked list
  * */
-public class SinglyLinkedList {
+public class Problem_2_1 {
     // S = [10, 7, 11, 5, 13, 8, 38, 37, 14, 92, 84, 74, 77, 20, 40, 47, 33, 65, 62, 69, 73]
     static int x = 109;
     static class Node
