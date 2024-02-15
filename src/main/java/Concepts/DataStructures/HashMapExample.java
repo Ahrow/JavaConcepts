@@ -10,7 +10,7 @@ public class HashMapExample {
      * */
     public static void main(String[] args) {
         // Create a HashMap object called games
-        HashMap<Integer, String> games = new HashMap<Integer, String>();
+        HashMap<Integer, String> games = new HashMap<>();
         // Add keys and values to hashmap called games
         games.put(1, "Counter-Strike");
         games.put(2, "Half-Life");
