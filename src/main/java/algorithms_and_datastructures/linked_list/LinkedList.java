@@ -1,4 +1,4 @@
-package algorithms_and_datastructures.linked_lists;
+package algorithms_and_datastructures.linked_list;
 /**
  * <a href="https://www.javatpoint.com/java-program-to-create-and-display-a-singly-linked-list">...</a>
  * Like arrays, Linked List is a linear data structure.
