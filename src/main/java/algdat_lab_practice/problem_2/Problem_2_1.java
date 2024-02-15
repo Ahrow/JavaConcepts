@@ -1,5 +1,8 @@
 package algdat_lab_practice.problem_2;
 // Linked List Data Structures
+
+import java.util.LinkedList;
+
 /** Problem 2.1: Insert an element using:
  * • Singly linked list
  * • Doubly linked list
@@ -52,14 +55,24 @@ public class Problem_2_1 {
         return root;
     }
 
-    // Driver code
     public static void main(String[] args)
     {
         int[] arr = { 10, 7, 11, 5, 13, 8, 38, 37, 14, 92, 84, 74, 77, 20, 40, 47, 33, 65, 62, 69, 73 };
         int n = arr.length;
         Node root = arrayToList(arr, n);
         root = insert(root, x); // add x to the end
+        System.out.println("\nAdvanced method: ");
         display(root);
+
+        // Easy way
+        LinkedList<Integer> numbers = new LinkedList<>();
+        int[] arrNumbers = {10, 7, 11, 5, 13, 8, 38, 37, 14, 92, 84, 74, 77, 20, 40, 47, 33, 65, 62, 69, 73};
+        for(int i : arrNumbers) {
+            numbers.add(i);
+        }
+        numbers.addFirst(x); // add X to the beginning
+        System.out.println("\nJava built in LinkedList<> method: ");
+        System.out.println(numbers);
     }
 }
 
