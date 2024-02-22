@@ -27,7 +27,7 @@ public class CircularLinkedList {
             temp.next = point;
         } else
             point.next = point; // For the first node
-            head_ref = point;
+        head_ref = point;
             return head_ref;
         }
     /* Function to print nodes in a given
@@ -42,7 +42,7 @@ public class CircularLinkedList {
             } while (temp != head);
         }
 
-        System.out.printf("\n");
+        System.out.print("\n");
     }
 
     /* Function to delete a given node from the list */
